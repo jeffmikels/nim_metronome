@@ -1,0 +1,13 @@
+{
+  "taskName": "Run metronome.nim",
+  "command": "nim",
+  "args": ["c", "-r", "metronome"],
+  "options": {
+    "cwd": "${workspaceRoot}"
+  },
+  "type": "shell",
+  "group": {
+    "kind": "build",
+    "isDefault": true
+  }
+}
